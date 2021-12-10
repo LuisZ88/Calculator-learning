@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+
+  <body>
+
+    <div class="caja">
+        <h1>Casio</h1>
+      <input class="input" id="primerInput" placeholder="0" disabled />
+      <input class="input" id="segundoInput" placeholder="0" disabled />
+
+      <div class="987">
+        <button id="n7">7</button>
+        <button id="n8">8</button>
+        <button id="n9">9</button>
+        <button id="suma">+</button>
+      </div>
+      <div class="654">
+        <button id="n4">4</button>
+        <button id="n5">5</button>
+        <button id="n6">6</button>
+        <button id="resta">-</button>
+      </div>
+      <button id="n1">1</button>
+      <button id="n2">2</button>
+      <button id="n3">3</button>
+      <button id="multiplicacion">x</button>
+      <div class="0">
+        <button id="n0">0</button>
+        <button id="ce">CE</button>
+        <button class="division" id="division">÷</button>
+        <button id="igual">=</button>
+      </div>
+      <div>
+        <p class="op" id="op"></p>
+      </div>
+      <div class="resultado">
+        <p id="resultado"></p>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>

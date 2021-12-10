@@ -1,0 +1,55 @@
+.caja {
+  background: rgb(27, 26, 26);
+  border: solid 3px black;
+  width: fit-content;
+  padding: 1%;
+  display: block;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+button {
+  width: 60px;
+  height: 60px;
+  color: yellow;
+  background: rgb(62, 64, 66);
+  font-size: medium;
+  font-weight: bold;
+  border: solid 3px black;
+}
+input {
+  width: 114px;
+  height: 30px;
+  text-align: end;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgb(150, 141, 143);
+  margin-bottom: 1px;
+  border: solid 3px black;
+}
+
+.op {
+  width: 240px;
+  height: 20px;
+  background: rgb(150, 141, 143);
+  text-align: right;
+  font-size: large;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  border: solid 3px black;
+  padding-right: 5px;
+  text-size-adjust: auto;
+}
+.resultado {
+  width: 245px;
+  height: 60px;
+  background: rgb(150, 141, 143);
+  text-align: right;
+  font-size: x-large;
+  font-weight: bold;
+  border: solid 3px black;
+}
+
+h1{
+    color:rgb(202, 202, 117)
+}
